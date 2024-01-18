@@ -1,0 +1,54 @@
+.avatar_container_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary_color);
+  margin: 0 16px;
+  overflow: hidden;
+}
+
+.avatar_container {
+  position: relative;
+  width: 147px;
+  height: 147px;
+}
+
+.fleche {
+  background-color: rgba(0, 0, 0, 0.72);
+  border-radius: 50%;
+  position: absolute;
+  padding: 3px;
+  width: 19px;
+  height: 19px;
+  color: white;
+  cursor: pointer;
+}
+
+.fleche_gauche {
+  margin: 0;
+  top: 40%;
+  right: -25px;
+  transform: rotate(90deg);
+  z-index: 999;
+}
+
+.fleche_droite {
+  margin: 0;
+  top: 40%;
+  left: -25px;
+  transform: rotate(-90deg);
+}
+
+.avatar_figure {
+  margin: 0;
+  width: 147px;
+  user-select: none;
+  display: flex;
+  transition: transform 300ms ease;
+  gap: 35px;
+}
+
+.avatar_img {
+  width: 100%;
+  transition: transform 300ms ease;
+}

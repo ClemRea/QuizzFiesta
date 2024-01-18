@@ -1,7 +1,6 @@
 .name_input_container {
   position: relative;
-  margin-left: 0.7rem;
-  margin-right: 0.7rem;
+  margin: 1rem 0.7rem 0 0.7rem;
   border-bottom: 2px solid var(--line_input);
 }
 

@@ -23,45 +23,5 @@
   text-transform: uppercase;
   font-size: 40px;
   font-weight: 500;
-  margin-bottom: 30px;
-}
-
-/****************************/
-/*********AVATAR*************/
-/****************************/
-
-.avatar_container_flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.avatar_container {
-  position: relative;
-  width: 147px;
-  height: 147px;
-}
-
-.fleche {
-  background-color: rgba(0, 0, 0, 0.72);
-  border-radius: 50%;
-  position: absolute;
-  padding: 3px;
-  width: 19px;
-  height: 19px;
-  color: white;
-}
-
-.fleche_gauche {
-  margin: 0;
-  top: 40%;
-  right: -20px;
-  transform: rotate(90deg);
-}
-
-.fleche_droite {
-  margin: 0;
-  top: 40%;
-  left: -20px;
-  transform: rotate(-90deg);
+  margin-bottom: 16px;
 }
