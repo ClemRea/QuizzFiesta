@@ -1,0 +1,8 @@
+@import url("../utils/variables.css");
+
+.home_page {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--primary_color);
+}

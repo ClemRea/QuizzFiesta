@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;500;600;700;800&family=Mooli&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+* {
+  text-decoration: none;
+  font-family: "Kalam", "Arial";
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

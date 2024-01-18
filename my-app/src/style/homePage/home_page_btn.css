@@ -1,0 +1,28 @@
+.btn_container {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.btn {
+  border: none;
+  margin: 0 11px;
+  box-shadow: 2px 1px 8px 0px black;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 24px;
+}
+
+.rules_btn {
+  color: white;
+  background-color: var(--primary_color);
+}
+
+.create_game_btn {
+  background-color: var(--create_game_btn);
+}
+
+.join_game_btn {
+  background-color: var(--secondary_color);
+}

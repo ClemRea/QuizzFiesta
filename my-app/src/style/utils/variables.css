@@ -1,0 +1,14 @@
+:root {
+  --primary_color: #212e53;
+  --secondary_color: #bed3c3;
+  --terciary_color: #ffffff;
+  --bacground_play_card: #fc5eb0;
+  --create_game_btn: #4a919e;
+  --input_upper_text: #353535;
+  --line_input: #808080;
+  --green_timer: #33650b;
+  --organe_timer: #8d6139;
+  --red_timer: #8d3939;
+  --false_answer: #e75656;
+  --right_answer: #41ff6e;
+}

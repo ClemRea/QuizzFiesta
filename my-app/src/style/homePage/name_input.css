@@ -1,0 +1,37 @@
+.name_input_container {
+  position: relative;
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
+  border-bottom: 2px solid var(--line_input);
+}
+
+.name_input:focus + .placeholder,
+.name_input_container.filled .placeholder {
+  top: -10px;
+  font-size: 12px;
+}
+
+.name_input {
+  border: 0;
+  background-color: transparent;
+  font-weight: 600;
+  outline: none;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.placeholder {
+  position: absolute;
+  left: 5px;
+  top: 0;
+  color: var(--input_upper_text);
+  font-weight: 600;
+  transition: 300ms;
+  pointer-events: none;
+}
+
+/* .name_input:focus + .placeholder {
+  top: -10px;
+  font-size: 12px;
+} */
